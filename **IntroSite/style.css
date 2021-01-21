@@ -1,0 +1,49 @@
+body { 
+background-color: greenyellow;
+margin:0px auto;
+width:100%;
+text-align: center;
+font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+} 
+
+p { 
+color: red;
+} 
+
+h1 {
+color:yellow;
+font-size: 40px;
+}
+
+h2 { 
+color: white;
+font-size: 40px;
+font-family: 'Pacifico', cursive;
+font-style: italic;
+}
+
+h3 { 
+color: white;
+font-size: 20px;
+}
+
+
+ul li { 						/*style for area around/on the links*/
+    display: inline-block;  	/*displays links in line (beside each other) */
+    padding: 20px;
+    margin: 20px;
+    background-color: #456fff;
+    }
+
+ul li a{
+	color:white;  
+    text-decoration: none; 		/*removes the default underline on a link*/
+    }
+
+ul li:hover { 					/*background colour on hover*/   
+    background-color: green; 
+}
+
+ul li:hover a{ 					/*text colour on hover*/
+	color:black;  
+}
